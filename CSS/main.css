@@ -1,0 +1,17 @@
+.form-chart-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.chart{
+    width: 26%;
+    display: flex;
+}
+
