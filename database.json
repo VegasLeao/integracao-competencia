@@ -1,19 +1,18 @@
 {
-  "posts": [
+  "bandas": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id":1,
+      "nome": "The Exploited",
+      "estilo":"Rock"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id":2,
+      "nome": "Ney Matogrosso",
+      "estilo":"MPB"
+    },{
+      "id":3,
+      "nome": "Michael Jackson",
+      "estilo":"Pop"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

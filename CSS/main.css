@@ -1,17 +1,69 @@
-.form-chart-container{
-    display: flex;
-    justify-content: center;
-    
+/* Reset de margens e preenchimento padrão para o corpo do documento */
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.form{
-    width: 40%;
-    display: flex;
-    justify-content: center;
+/* Estilo do header */
+header {
+    background-color: #343a40; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    padding: 10px 0; /* Adicionando algum preenchimento superior e inferior */
 }
 
-.chart{
-    width: 26%;
-    display: flex;
+nav.navbar {
+    background-color: #333; /* Adicionando uma borda branca na parte inferior da barra de navegação */
+    color: white;
+    padding: 15px; 
 }
 
+/* Estilo da seção de formulário */
+#table {
+    padding: 20px;
+    background-color: #fcfcfc
+}
+
+.form-chart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    background: #fff;
+
+}
+
+/* Estilo dos botões do formulário */
+.btn {
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+/* Estilo da tabela */
+.table {
+    width: 100%;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .fa {
+    font-size: 40px;  
+    margin: 0 30px;   
+  }
+
+.flex{
+    display: flex;
+    gap: 1.5rem;
+
+}
