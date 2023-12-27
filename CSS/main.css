@@ -11,16 +11,17 @@ header {
     padding: 10px 0; /* Adicionando algum preenchimento superior e inferior */
 }
 
+/* Estilo da navegação */
 nav.navbar {
-    background-color: #333; /* Adicionando uma borda branca na parte inferior da barra de navegação */
+    background-color: #333;
     color: white;
-    padding: 15px; 
+    padding: 15px;
 }
 
 /* Estilo da seção de formulário */
 #table {
     padding: 20px;
-    background-color: #fcfcfc
+    background-color: #fcfcfc;
 }
 
 .form-chart-container {
@@ -29,9 +30,8 @@ nav.navbar {
 }
 
 .form {
-    width: 100%; /* Ajuste a largura conforme necessário */
+    width: 100%;
     background: #fff;
-
 }
 
 /* Estilo dos botões do formulário */
@@ -55,15 +55,37 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 16px;
-  }
+}
 
-  .fa {
-    font-size: 40px;  
-    margin: 0 30px;   
-  }
+/* Estilo dos ícones sociais no rodapé */
+.fa {
+    font-size: 40px;
+    margin: 0 30px;
+}
 
-.flex{
-    display: flex;
-    gap: 1.5rem;
+/* Estilo para o elemento canvas do gráfico */
+#myChart {
+    width: 400px;
+    max-width: 600px; /* Ajuste conforme necessário */
+    height: 300px; /* Ajuste conforme necessário */
+    margin: 20px auto; /* Centraliza o gráfico e adiciona margem superior e inferior */
+    border: 1px solid #ddd; /* Adiciona uma borda para separar visualmente do restante da página */
+    border-radius: 8px; /* Adiciona cantos arredondados à borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
 
+/* Estilo para todas as células da tabela */
+.table td {
+    border: 1px solid #ddd; /* Adiciona uma borda às células */
+    padding: 8px; /* Adiciona preenchimento interno às células */
+}
+
+/* Limite o tamanho da caixa de seleção para "Escolha seu gênero musical" */
+#generoBandaContainer select {
+    max-width: 200px; /* Ajuste conforme necessário */
+}
+
+/* Limite o tamanho da caixa de texto para "Nome da Banda" */
+#nomeBandaContainer input[type="text"] {
+    max-width: 200px; /* Ajuste conforme necessário */
 }

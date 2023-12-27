@@ -1,18 +1,149 @@
 {
-  "bandas": [
+  "posts": [
     {
-      "id":1,
-      "nome": "The Exploited",
-      "estilo":"Rock"
+      "id": 1,
+      "title": "Ney Matogrosso",
+      "author": "MPB"
     },
     {
-      "id":2,
-      "nome": "Ney Matogrosso",
-      "estilo":"MPB"
-    },{
-      "id":3,
-      "nome": "Michael Jackson",
-      "estilo":"Pop"
+      "title": "The Exploited",
+      "author": "Rock",
+      "id": 2
+    },
+    {
+      "title": "sss",
+      "author": "Rock",
+      "id": 3
+    },
+    {
+      "title": "sssss",
+      "author": "Rock",
+      "id": 4
+    },
+    {
+      "title": "Rammstein",
+      "author": "Rock",
+      "id": 5
+    },
+    {
+      "title": "Rammstein",
+      "author": "Rock",
+      "id": 6
+    },
+    {
+      "title": "Iron Maiden",
+      "author": "Rock",
+      "id": 7
+    },
+    {
+      "title": "Virus 27",
+      "author": "Rock",
+      "id": 8
+    },
+    {
+      "title": "Tim Maia",
+      "author": "MPB",
+      "id": 9
+    },
+    {
+      "title": "Michael Jackson",
+      "author": "Pop",
+      "id": 10
+    },
+    {
+      "title": "Iron Maiden",
+      "author": "Rock",
+      "id": 11
+    },
+    {
+      "title": "Rammstein",
+      "author": "Rock",
+      "id": 12
+    },
+    {
+      "title": "Ney Matogrosso",
+      "author": "MPB",
+      "id": 13
+    },
+    {
+      "title": "Michael Jackson",
+      "author": "Pop",
+      "id": 14
+    },
+    {
+      "title": "Metallica",
+      "author": "Rock",
+      "id": 15
+    },
+    {
+      "title": "iron maiden",
+      "author": "Rock",
+      "id": 16
+    },
+    {
+      "title": "rammstein",
+      "author": "MPB",
+      "id": 17
+    },
+    {
+      "title": "Iron Maiden",
+      "author": "Rock",
+      "id": 18
+    },
+    {
+      "title": "Rammstein",
+      "author": "Rock",
+      "id": 19
+    },
+    {
+      "title": "Metallica",
+      "author": "Rock",
+      "id": 20
+    },
+    {
+      "title": "Ney Matogrosso",
+      "author": "MPB",
+      "id": 21
+    },
+    {
+      "title": "Michael Jackson",
+      "author": "Pop",
+      "id": 22
+    },
+    {
+      "title": "Virus 27",
+      "author": "Rock",
+      "id": 23
+    },
+    {
+      "title": "bunda",
+      "author": "Rock",
+      "id": 24
+    },
+    {
+      "title": "rabo",
+      "author": "MPB",
+      "id": 25
+    },
+    {
+      "title": "jai z",
+      "author": "Pop",
+      "id": 26
+    },
+    {
+      "title": "bundinha",
+      "author": "Rock",
+      "id": 27
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
